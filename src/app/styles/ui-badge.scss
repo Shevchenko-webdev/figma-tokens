@@ -1,0 +1,16 @@
+@layer components {
+  ui-badge {
+    display: inline-flex;
+    align-items: center;
+
+    padding: var(--spacing-badge-y) var(--spacing-badge-x);
+    border-radius: var(--radius-badge);
+
+    background: var(--badge-color-bg);
+    color: var(--badge-color-text);
+
+    font-size: var(--font-size-badge);
+    font-weight: var(--font-weight-badge);
+    line-height: 1;
+  }
+}

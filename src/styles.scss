@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+@use 'tailwindcss';
+@use './app/styles/theme';
+@use './app/styles/tailwind';
+@use 'app/styles/ui-button.scss';
+@use 'app/styles/ui-badge.scss';

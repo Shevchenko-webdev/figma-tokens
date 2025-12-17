@@ -1,0 +1,53 @@
+@layer components {
+  ui-button button {
+    padding: var(--spacing-button-y) var(--spacing-button-x);
+    border-radius: var(--radius-button);
+    background: var(--color-primary);
+    color: var(--color-onPrimary);
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+  }
+
+  ui-button button {
+    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-medium);
+  }
+
+  ui-button button:hover {
+    background: var(--color-primaryHover);
+  }
+}
+@layer components {
+  ui-button button {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--button-icon-gap);
+  }
+
+  ui-button .icon {
+    display: inline-flex;
+    width: var(--button-icon-size);
+    height: var(--button-icon-size);
+    flex-shrink: 0;
+  }
+
+  ui-button .icon svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  button:disabled {
+    background: var(--button-disabled-bg);
+    color: var(--button-disabled-text);
+    opacity: var(--button-disabled-opacity);
+    cursor: not-allowed;
+  }
+
+  button:disabled .icon svg {
+    fill: currentColor;
+  }
+
+  .icon:empty {
+    display: none;
+  }
+}

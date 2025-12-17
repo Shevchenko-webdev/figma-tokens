@@ -1,0 +1,56 @@
+{
+  "color": {
+    "primary": { "value": "#2563EB" },
+    "primaryHover": { "value": "#1D4ED8" },
+    "onPrimary": { "value": "#FFFFFF" }
+  },
+
+  "font": {
+    "family": {
+      "base": { "value": "Inter" }
+    },
+    "size": {
+      "button": { "value": "14px" },
+      "badge": { "value": "12px" }
+    },
+    "weight": {
+      "button": { "value": "500" },
+      "badge": { "value": "500" }
+    }
+  },
+
+  "spacing": {
+    "button": {
+      "x": { "value": "20px" },
+      "y": { "value": "10px" }
+    },
+    "badge": {
+      "x": { "value": "8px" },
+      "y": { "value": "4px" }
+    }
+  },
+
+  "radius": {
+    "button": { "value": "4px" },
+    "badge": { "value": "9999px" }
+  },
+
+  "button": {
+    "icon": {
+      "size": { "value": "16px" },
+      "gap": { "value": "8px" }
+    },
+    "disabled": {
+      "bg": { "value": "#E5E7EB" },
+      "text": { "value": "#9CA3AF" },
+      "opacity": { "value": "0.6" }
+    }
+  },
+
+  "badge": {
+    "color": {
+      "bg": { "value": "#E0E7FF" },
+      "text": { "value": "#1E3A8A" }
+    }
+  }
+}
