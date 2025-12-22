@@ -1,30 +1,11 @@
-<div class="p-10 flex flex-col gap-4">
-  <ui-button>Button 1</ui-button>
-  <ui-button [disabled]="true">Button 2</ui-button>
-</div>
-<div class="p-10 flex flex-col gap-4">
-  <ui-button>
-    <ui-icon icon-start name="save"></ui-icon>
-    Save
-  </ui-button>
-  <ui-button>
-    <ui-icon icon-end name="save"></ui-icon>
-    Save
-  </ui-button>
-  <ui-button>
-    <ui-icon icon-start name="save"></ui-icon>
-    <ui-icon icon-end name="save"></ui-icon>
-    Save
-  </ui-button>
-</div>
-<div class="p-10 flex flex-col items-start gap-4">
-  <ui-badge>New</ui-badge>
-  <ui-badge>Beta</ui-badge>
-</div>
-<div class="p-10 flex gap-4">
-  <ui-icon name="save"></ui-icon>
-  <ui-icon name="close"></ui-icon>
-  <ui-icon name="arrowRight"></ui-icon>
+<div class="flex flex-col gap-6 p-6 bg-surface text-onSurface">
+  <div class="flex flex-wrap items-center justify-between gap-4">
+    <div>
+      <h1 class="text-xl font-semibold">Component Gallery</h1>
+      <p class="text-sm text-onSurface/70">Navigate to explore UI samples.</p>
+    </div>
+    <ui-button (click)="goToButtonsBadges()">View Buttons &amp; Badges</ui-button>
+  </div>
 </div>
 
-<div class="flex gap-4 p-4 bg-onPrimary text-primary text-badge font-badge rounded-button">Lorem ipsum dolor.</div>
+<router-outlet></router-outlet>
